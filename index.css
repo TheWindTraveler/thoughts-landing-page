@@ -4,3 +4,35 @@ body{
     background-size: cover;
     text-align: center;
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/* Boxes */
+.box1, .box2{
+    border: 5px solid brown;
+    width: 500px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+/* Button */
+.btn{
+    background-color: brown;
+    padding: 20px;
+    /* width: 200%; */
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(6, 43, 43);
+}
