@@ -25,7 +25,7 @@ body{
 .btn{
     background-color: brown;
     padding: 20px;
-    /* width: 200%; */
+    width: 50%;
     border: none;
     border-radius: 5px;
     font-size: 25px;
